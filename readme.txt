@@ -11,6 +11,8 @@ MultiplierProvider searches for the multiplier of the particular instrument. At 
 5 seconds and provides methods for invalidating cached multipliers to allow DB writing component to invalidate cache after
 DB has been changed.
 
+I did not consider any question related to encoding as it is not considerable for this task.
+
 How to run:
 
 StreamDriver.main() starts the task with provided example_input.txt.
