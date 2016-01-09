@@ -1,13 +1,10 @@
 package com.luxoft.aggregator;
 
-import com.google.common.collect.*;
-import org.junit.Test;
-import rx.*;
+import com.google.common.collect.Iterators;
 import rx.Observable;
+import rx.*;
 import rx.observables.StringObservable;
-
 import java.io.*;
-import java.nio.charset.Charset;
 import java.util.*;
 
 /**
@@ -15,8 +12,6 @@ import java.util.*;
  * @author Dmitry Dobrynin
  */
 public class MassDataGenerator {
-    private static List<InstrumentPrice> prices;
-
     public static Observable<String> createFromFile() throws FileNotFoundException {
         List<String> strings = StringObservable.split(
                 StringObservable.from(
