@@ -20,7 +20,7 @@ import static com.luxoft.aggregator.InstrumentPriceUtilities.*;
  * Specification on utility methods.
  * @author Dmitry Dobrynin
  */
-public class InstrumentPriceUtilitiesSpec {
+public class InstrumentPriceUtilitiesTest {
     @Test
     public void instrumentProvidesInstrumentNameToTheSuppliedPredicate() throws Exception {
         assertTrue(instrument("INSTRUMENT1"::equals).call(new InstrumentPrice("INSTRUMENT1", null, null)));

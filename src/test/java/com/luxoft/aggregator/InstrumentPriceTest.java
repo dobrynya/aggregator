@@ -9,7 +9,7 @@ import static org.assertj.core.api.Assertions.*;
  * Tests InstrumentPrice.
  * @author Dmitry Dobrynin
  */
-public class InstrumentPriceSpec {
+public class InstrumentPriceTest {
     @Test
     public void multiplyCreatesNewInstrumentPriceInstance() {
         InstrumentPrice p1 = new InstrumentPrice("product1", LocalDate.now(), BigDecimal.ONE);

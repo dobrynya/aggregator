@@ -17,6 +17,7 @@ StreamDriver.main() starts the task with provided example_input.txt.
 Tests can be run as folows
 mvn test
 
-MassDataGenerator generates large amount of instrument prices for testing application function.
+MassDataGenerator generates large amount of instrument prices for testing application functioning
 
-I profiled the app with Your Kit Profiler. It shows quite low memory consumption.
+I profiled the app with Your Kit Profiler. It showed quite low memory consumption and insignificant cpu overhead for
+calculation engine infrastructure.

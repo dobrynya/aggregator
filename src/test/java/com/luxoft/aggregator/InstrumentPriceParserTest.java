@@ -12,7 +12,7 @@ import static org.assertj.core.api.Assertions.assertThat;
  * Specification on the parser.
  * @author Dmitry Dobrynin
  */
-public class InstrumentPriceParserSpec {
+public class InstrumentPriceParserTest {
     InstrumentPriceParser parser = new InstrumentPriceParser();
 
     @Test
